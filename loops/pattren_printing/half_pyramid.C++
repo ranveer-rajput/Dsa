@@ -1,43 +1,39 @@
 #include <iostream>
 using namespace std;
 
-// int main()
-// {
+// half pyramid
+int main()
+{
+    // Outer loop for the number of rows
+    for (int row = 0; row < 4; row++)
+    {
+        // Inner loop for printing '*' in each row
+        for (int col = 0; col < row + 1; col++)
+        {
+            cout << "*";
+        }
+        cout << endl; // Move to the next line after each row
+    }
 
-//     for (int row = 0; row < 4; row++)
-//     {
+    return 0;
+}
 
-//         for (int col = 0; col < row + 1; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-// }
+// Half Inverted Pyramid
+int main()
+{
+    // Outer loop for the number of rows
+    for (int row = 0; row < 4; row++)
+    {
+        // Print the current row number
+        cout << row << " ";
 
+        // Inner loop for printing '*' in each row
+        for (int col = 0; col < 4 - row; col++)
+        {
+            cout << "*";
+        }
+        cout << endl; // Move to the next line after each row
+    }
 
-
-************************************************************************************************************************************
-
-// half inverted pyramid
-
-// int main()
-// {
-
-//     int n;
-//     cin >> n;
-//     for (int row = 0; row < n; row++)
-
-//     {
-//         cout<<row<<" ";
-
-//         for (int col = 0; col < n - row; col++)
-//         {
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-
-//     return 0;
-// }
-******************************************************************************************************************************************
+    return 0;
+}
