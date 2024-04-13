@@ -5,7 +5,7 @@ using namespace std;
  
  int main(){
        for(int row=0;row<4;row++){
-         cout<<row<< " ";
+         // cout<<row<< " ";
 
          for(int col=0;col<4;col++){
             if(row==0||row==3){
