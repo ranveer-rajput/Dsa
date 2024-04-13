@@ -3,11 +3,11 @@ using namespace std;
 
 void rightShift(int arr[],int n){
 
-    int temp=arr[n-1];
+    int temp[]={60,70};
      for(int i=n-1;i>=1;i--){
-        arr[i]=arr[i-1];
+        arr[i]=arr[i-2];
      }
-     arr[0]=temp;
+     arr[]=temp[];
 
 }
 
@@ -15,6 +15,7 @@ int main(){
    
     int arr[]={10,30,40,60,70};
     int n=5;
+    int k=2;
 
     rightShift(arr,n);
 
