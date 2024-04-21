@@ -9,7 +9,8 @@ int main()
 
     for (int col = 0; col < row + 1; col++)
     {
-      cout << col + 1;
+    
+      cout << col + row;
     }
     cout << endl;
   }
