@@ -13,9 +13,24 @@ using namespace std;
    
 // }
 
-int main()
-{
-    cout << fact(5);
 
-    return 0;
-}
+// int counting(int n){
+//     if(n==1){
+//         return 1;
+//     }
+//    int finalans=counting(n-1);
+//    int count=finalans+n;
+//     return count;
+
+// }
+// int main()
+// {    
+//     int n;
+//     cout<<"enter number:";
+//     cin>>n;
+//     // cout << fact(n);
+
+//    cout<< counting(n);
+
+//     return 0;
+// }
